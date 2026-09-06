@@ -2,10 +2,53 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>619</width>
+    <height>276</height>
+   </rect>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="printButton">
-    <property name="geometry"><rect><x>40</x><y>40</y><width>120</width><height>32</height></rect></property>
-    <property name="text"><string>Print Label</string></property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>120</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Print Label</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>107</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Flip</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flip">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>140</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Results</string>
+    </property>
    </widget>
   </widget>
  </widget>
