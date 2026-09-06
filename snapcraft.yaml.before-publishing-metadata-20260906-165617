@@ -1,5 +1,5 @@
 name: coinflipper
-title: 'CoinFlipper'
+title: CoinFlipper
 version: '0.1'
 summary: CoinFlipper
 description: CoinFlipper built with Qt/C++
@@ -13,9 +13,3 @@ parts:
   CoinFlipper:
     plugin: cmake
     source: .
-license: 'Apache-2.0'
-contact: 'mailto:joneal97m@gmail.com'
-website: 'https://j03.page/utils/'
-icon: 'org.oneal.CoinFlipper.svg'
-source-code: 'https://github.com/we6jbo/CoinFlipper'
-issues: 'https://github.com/we6jbo/CoinFlipper/issues'
