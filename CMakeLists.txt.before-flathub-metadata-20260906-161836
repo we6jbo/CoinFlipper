@@ -12,11 +12,3 @@ target_link_libraries(CoinFlipper PRIVATE Qt6::Widgets)
 # Install the application executable into Flatpak's bin directory.
 install(TARGETS CoinFlipper
         RUNTIME DESTINATION bin)
-
-# Flathub desktop integration
-install(FILES org.oneal.CoinFlipper.desktop
-        DESTINATION share/applications)
-install(FILES org.oneal.CoinFlipper.metainfo.xml
-        DESTINATION share/metainfo)
-install(FILES org.oneal.CoinFlipper.svg
-        DESTINATION share/icons/hicolor/scalable/apps)
