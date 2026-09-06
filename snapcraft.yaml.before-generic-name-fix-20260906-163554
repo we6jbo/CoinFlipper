@@ -1,13 +1,12 @@
-name: coinflipper
-title: CoinFlipper
+name: CoinFlipper
 version: '0.1'
 summary: CoinFlipper
 description: CoinFlipper built with Qt/C++
 base: core24
 confinement: strict
 apps:
-  coinflipper:
-    command: usr/local/bin/CoinFlipper
+  CoinFlipper:
+    command: usr/bin/CoinFlipper
     plugs: [home, network, raw-usb]
 parts:
   CoinFlipper:
