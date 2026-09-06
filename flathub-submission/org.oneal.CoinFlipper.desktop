@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=CoinFlipper
+Comment=Practice and learn fractions
+Exec=CoinFlipper
+Icon=org.oneal.CoinFlipper
+Terminal=false
+Categories=Education;
