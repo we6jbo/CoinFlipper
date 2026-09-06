@@ -1,8 +1,14 @@
 app-id: org.oneal.CoinFlipper
 runtime: org.kde.Platform
-runtime-version: '6.7'
+runtime-version: '6.11'
 sdk: org.kde.Sdk
 command: CoinFlipper
+finish-args:
+  - --share=ipc
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --device=dri
+
 modules:
   - name: CoinFlipper
     buildsystem: cmake-ninja
